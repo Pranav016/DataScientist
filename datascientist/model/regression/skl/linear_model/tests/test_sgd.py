@@ -12,7 +12,7 @@ def test_sgd():
     metrics = 'mae'
     answer = _sgd(train=(x_train, y_train), test=(x_test, y_test), metrics=metrics)
     assert answer[0] == 'SGDRegressor'
-    assert round(answer[1] , 4) == 0.5003
+    assert round(answer[1] , 4) == 0.4900
     assert answer[2] is None
 
     metrics = 'mse'
