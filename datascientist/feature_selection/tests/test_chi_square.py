@@ -3,7 +3,7 @@
 import pandas as pd
 from datascientist.feature_selection.filter_based_selection import ChiSquare
 
-player_df = pd.read_csv("datascientist/feature_selection/test/CSV/data.csv")
+player_df = pd.read_csv("csv/data.csv")
 
 # Taking only those columns which have numerical or categorical values since
 # feature selection with Pearson Correlation can be performed on numerical
