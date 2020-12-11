@@ -30,4 +30,3 @@ def _ridgeclassifier(*, train, test, x_predict=None, metrics, alpha=1.0, fit_int
 
     y_predict = model.predict(x_predict)
     return (model_name, accuracy, y_predict)
-    

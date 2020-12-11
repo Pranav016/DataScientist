@@ -30,4 +30,3 @@ def test_ridgeclassifier():
 
     answer = _ridgeclassifier(train=(x_train, y_train), test=(x_test, y_test), metrics=metrics, x_predict=x_test)
     assert arr == any([0, 1, 0, 0])
-    
