@@ -4,13 +4,14 @@ from sklearn.metrics import jaccard_score
 from sklearn.metrics import accuracy_score
 import numpy as np
 
+
 def _BallTree(X, leaf_size=40, metric='minkowski', **kwargs):
     """
     For more info visit :
     https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.BallTree.html#sklearn.neighbors.BallTree
     """
 
-    model= BallTree(random_state = 0)
+    model = BallTree(random_state=0)
     model.fit(train[0], train[1])
     model_name = 'Ball Tree'
     y_hat = model.predict(test[0])
