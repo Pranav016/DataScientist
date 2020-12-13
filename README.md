@@ -21,15 +21,18 @@ DataScientist is a Python library in making to ease the life of a Data Scientist
 ## 🤝 How to Contribute
 
 ### For sending PR:-
+
 >-   Pick an open issue from the  [issue list](https://github.com/garimasingh128/ToDoista/issues)  and claim it in the comments. After approval fix the issue and send us a pull request (PR).
 >-   All the PR’s need to be sent to the appropriate branch (usually "master").
 
 ### For Open issue:-
+
 >-   You can create a new issue and send a pull request.
 >-   Please go through our issue list first (open as well as closed) and make sure the issue you are reporting does not replicate an issue already reported. If you have issues on multiple pages, report them separately. Do not combine them into a single issue.
 
 
 ## Use
+
 1. It applies Feature Selection.
 2. It does Dimensionality Reduction.
 3. It plots all relevant plots of the input dataset.
@@ -45,9 +48,19 @@ DataScientist is a Python library in making to ease the life of a Data Scientist
 4.  Write a kick-ass, readable, and clean code.
 
 ## Contributing
+
 Pull requests are WELCOME. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests case wherever necessary.
+
+## 🌟 Contributors 
+
+<a href="https://github.com/Dacience/DataScientist/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Dacience/DataScientist" />
+</a>
+
+Made with [contributors-img](https://contrib.rocks).
+
 
 ##  💼  Code of Conduct
 
