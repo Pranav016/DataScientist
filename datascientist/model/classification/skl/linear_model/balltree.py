@@ -6,13 +6,13 @@ from sklearn.neighbors import BallTree
 import numpy as np
 
 
-def _BallTree(X, leaf_size=40, metric='minkowski', **kwargs):
+def _balltree(*, train, test, x_predict=None, metrics, X, leaf_size=40, metric='minkowski', **kwargs):
     """
     For more info visit :
     https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.BallTree.html#sklearn.neighbors.BallTree
     """
 
-    model = BallTree(random_state=0)
+    model = BallTree(X, leaf_size=leaf_size, metric=metric, **kwargs)
     model.fit(train[0], train[1])
     model_name = 'Ball Tree'
     y_hat = model.predict(test[0])

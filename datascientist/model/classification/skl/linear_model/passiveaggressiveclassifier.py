@@ -10,12 +10,12 @@ def _passiveaggressiveclassifier(*, train, test, x_predict=None, metrics, C=1.0,
 tol=0.001, early_stopping=False, validation_fraction=0.1, n_iter_no_change=5, shuffle=True,
 verbose=0, loss='hinge', n_jobs=None, random_state=None, warm_start=False, class_weight=None, average=False):
     """For for info visit :
-        https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeClassifier.html#sklearn.linear_model.RidgeClassifier
+        https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.PassiveAggressiveClassifier.html#sklearn.linear_model.PassiveAggressiveClassifier
     """
 
     model = PassiveAggressiveClassifier(C=C, fit_intercept=fit_intercept, max_iter=max_iter, tol=tol, early_stopping=early_stopping,
-    validation_fraction=validation_fraction, n_iter_no_change=n_iter_no_change, shuffle=shuffle, verbose=verbose,
-    loss=loss, n_jobs=n_jobs, random_state=random_state, warm_start=warm_start, class_weight=class_weight, average=average)
+validation_fraction=validation_fraction, n_iter_no_change=n_iter_no_change, shuffle=shuffle, verbose=verbose, loss=loss,
+ n_jobs=n_jobs, random_state=random_state, warm_start=warm_start, class_weight=class_weight, average=average)
     model.fit(train[0], train[1])
     model_name = 'PassiveAggressiveClassifier'
     y_hat = model.predict(test[0])
