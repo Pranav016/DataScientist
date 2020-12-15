@@ -1,4 +1,4 @@
-from datascientist.model.classification.skl.linear_model.perceptron import _sgdclassifier
+from datascientist.model.classification.skl.linear_model.sgd import _sgdclassifier
 
 import numpy as np
 
