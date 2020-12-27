@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
-%matplotlib inline
+import pandas as pd
+import numpy
+
+data = pd.read_csv('')
 
 def eda(df):
     print("Exploratory Data Analysis for Data:\n")
@@ -14,3 +17,5 @@ def eda(df):
     print("===========================================================================")
     sns.heatmap(df.isnull(), yticklabels=False, cbar=False, cmap='viridis')
     sns.pairplot(df)
+    
+eda_(data)
