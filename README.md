@@ -1,5 +1,7 @@
 ## WELCOME ALL
 
+![DataScientist](https://socialify.git.ci/Dacience/DataScientist/image?font=Inter&forks=1&issues=1&language=1&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Dark)
+
 [![Join the chat at https://gitter.im/Dacience/DataScientist](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Dacience/DataScientist?utm_source=badge&utm_medium=badge&utm_content=badge)
 
 ## LOGO
